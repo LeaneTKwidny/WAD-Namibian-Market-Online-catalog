@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Namibian Market  Online Catalog</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="wrap hero">
+    <div class="hero-text">
+      <h1>Namibian Market</h1>
+      <p class="tagline">A place for amazing NAMIBIAN authentic products .</p>
+    </div>
+
+    <!-- MAIN MENU / FILTERS -->
+    <div class="panel">
+      <div class="filters">
+        <input id="q" type="search" placeholder="Search products… (e.g., 'himba')" />
+        <select id="cat">
+          <option value="">All categories</option>
+          <option value="Agriculture">Agriculture</option>
+          <option value="Jewelry">Jewelry</option>
+          <option value="Crafts">Crafts</option>
+          <option value="Skincare">Skincare</option>
+          <option value="Fashion">Fashion</option>
+          <option value="Meat & Snacks">Meat & Snacks</option>
+        </select>
+        <select id="sort">
+          <option value="">Sort by</option>
+          <option value="name-asc">Name (A–Z)</option>
+          <option value="price-asc">Price (low→high)</option>
+          <option value="price-desc">Price (high→low)</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="grid" class="grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="wrap foot">
+    <small>© 2025 Namibian Market</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
