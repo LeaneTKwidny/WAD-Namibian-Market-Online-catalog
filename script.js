@@ -11,7 +11,7 @@ const PRODUCTS = [
 
   // Jewelry
   {name:'Himba Necklace', category:'Jewelry', price:220,
-   description:'Significant Handcrafted beads and leather inspired by Himba tradition of NAMIBIA used to signify social status fertility, age and beauty unique and ornamental item created with natural materials and often colored with traditional otjize paste giving a distinctive hue.',
+   description:'Significant Handcrafted beads made from animal bone and leather inspired by Himba tradition of NAMIBIA used to signify social status fertility, age and beauty unique and ornamental item created with natural materials and often colored with traditional otjize paste giving a distinctive hue.',
    image:'assets/images/himba-necklace.jpg'},
 
   // Crafts
@@ -39,7 +39,7 @@ const PRODUCTS = [
 
   // Meat & Snacks
   {name:'Beef Biltong 200g', category:'Meat & Snacks', price:80,
-   description:'Air-dried beef biltong packed with flavouris not unique but it is one of many traditional dishes across the world based on curing and dehydrating meat (or other proteins) in order to preserve and add flavour to them. The practice is very old as humans have likely been curing meat ever since they discovered the magic of salt..',
+   description:'Air-dried beef biltong packed with flavour is not unique but it is one of many traditional dishes across the world based on curing and dehydrating meat (or other proteins) in order to preserve and add flavour to them. The practice is very old as humans have likely been curing meat ever since they discovered the magic of salt..',
    image:'assets/images/biltong.jpg'},
 ];
 
