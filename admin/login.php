@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       header('Location: dashboard.php'); exit;
     }
   }
-  $error = 'Invalid credentials.';
+  $error = 'Invalid credentials';
 }
 ?>
 <!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
