@@ -11,7 +11,7 @@
 html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
 .wrap{width:min(1100px,92%);margin-inline:auto}
 
-/* HEADER with background image */
+/* putting header with background image */
 .hero{
   padding:48px 0 28px;
   background:
