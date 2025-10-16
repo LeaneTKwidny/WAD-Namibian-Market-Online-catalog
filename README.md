@@ -60,7 +60,7 @@ Start the PHP development server:
 php -S localhost:8080
 
 
-Visit in your browser:
+Visit the browser:
 
 http://localhost:8080/
 
